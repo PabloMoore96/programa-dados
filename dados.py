@@ -1,6 +1,4 @@
 import random
-dados_stock=[]
-# --------------------------------------------------------------------------------D3--------------------------------------------------------------------------
 def dados_tirar(n_caras):
     cant=input("Ingresar la cantidad de dados a tirar:\n")
 
@@ -10,9 +8,3 @@ def dados_tirar(n_caras):
     for i in range(cant):
         dado=random.randint(1, n_caras)
         print (f"El dado {i+1} sacó: {dado}")
-
-
-
-    
-
-    
